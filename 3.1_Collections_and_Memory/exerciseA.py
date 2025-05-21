@@ -3,7 +3,7 @@ count = int(input())
 bool_letters = True
 
 for _ in range(count):
-    shout = str(input())
+    shout = input()
     if shout.startswith("а") or shout.startswith("б") or shout.startswith("в"):
         pass
     else:

@@ -6,10 +6,7 @@ for _ in range(kids_count):
     parts = input().split()
     name = parts[0]
     foods = set(parts[1:])
-    if name not in kid_and_food_dict:
-        kid_and_food_dict[name] = foods
-    else:
-        kid_and_food_dict[name].update(foods)
+    kid_and_food_dict[name] = kid_and_food_dict.get(name, set()) | foods
 
 search_value = input()
 

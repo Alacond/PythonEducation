@@ -14,8 +14,7 @@ for _ in range(int(input())):  # Собираем блоки рецептов, �
 suitable_dishes = {key for key, value in recipes.items() if ingredients >= value}  # Собираем сет из ключей (названий рецептов), для которых есть все ингредиенты
 
 if suitable_dishes:
-    print(*sorted(suitable_dishes), sep="\n")  # Если честно, не до конца понимаю как это работает, ве
-    # for dish in sorted(suitable_dishes):
-    #     print(dish)
+    for dish in sorted(suitable_dishes):
+        print(dish)
 else:
     print("Готовить нечего")

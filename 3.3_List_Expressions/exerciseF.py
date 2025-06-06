@@ -1,0 +1,1 @@
+{key: text.lower().count(key) for key in sorted(text.lower()) if key.isalpha()}

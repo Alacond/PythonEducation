@@ -150,7 +150,7 @@ print(*variables, "F")  # Заголовок таблицы
 for values in product([0, 1], repeat=len(variables)):  # Все возможные значения переменных
     local_vars = dict(zip(variables, values))  # Словарь переменных для подстановки
     result = eval(parsed_expression, {}, local_vars)  # Вычисляем выражение
-    print(*values, int(bool(result)))  # int(bool(...)) на случай, если if вернёт True/False
+    print(*values, int(result))
 
 # В этой задаче я использовал метод рекурсивного спуска. Изначально я спросил чат GPT про алгоритм, он посоветовал 2 подхода:
 # обратная польская нотация и рекурсивный спуск. ОПН я уже пробовал, поэтому я захотел разобраться в рекурсивном спуске. Разобрался.

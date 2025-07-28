@@ -1,0 +1,1 @@
+"".join(char * num for (char, num) in rle)

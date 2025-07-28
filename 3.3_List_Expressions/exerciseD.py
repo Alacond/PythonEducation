@@ -1,1 +1,1 @@
-{x for x in numbers if x % 2}
+{x for x in numbers if x % 2 != 0}

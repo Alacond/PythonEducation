@@ -1,0 +1,1 @@
+{tuple(sorted((w1, w2))) for w1 in text.split() for w2 in text.split() if w1 < w2 and len(set(w1) & set(w2)) > 2}

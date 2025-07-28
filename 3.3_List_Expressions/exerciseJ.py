@@ -1,1 +1,1 @@
-''.join(char * num for (char, num) in rle)
+[word for word in words.split() if sum(letter in "aeiouyаяуюоёэеиы" for letter in word.lower()) >= 3]

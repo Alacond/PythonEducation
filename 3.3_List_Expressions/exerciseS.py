@@ -1,0 +1,1 @@
+{key for key in sorted(numbers) if len([value for value in range(1, max(numbers) + 1) if (key / value) % 1 == 0]) == 2}

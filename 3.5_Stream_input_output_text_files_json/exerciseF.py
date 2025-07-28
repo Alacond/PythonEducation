@@ -34,7 +34,9 @@ gost_dict = {
         "Я": "Ia", "я": "ia"
 }
 
-user_string = input()
+with open("cyrillic.txt", encoding="UTF-8") as file_in:
+    user_string = file_in.read()
+
 result = []
 
 for symbol in user_string:
@@ -44,4 +46,5 @@ for symbol in user_string:
     else:
         result.append(symbol)
 
-print("".join(result))
+with open("transliteration.txt", mode="w", encoding="UTF-8") as file_out:
+    file_out.write("".join(result))

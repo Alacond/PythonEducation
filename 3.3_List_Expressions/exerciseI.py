@@ -1,1 +1,1 @@
-' - '.join([str(num) for num in sorted(set(numbers))])
+" - ".join([str(num) for num in sorted(set(numbers))])

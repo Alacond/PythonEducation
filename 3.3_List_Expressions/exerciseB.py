@@ -1,1 +1,1 @@
-[[i * j for j in range(1, n + 1)] for i in range(1, n + 1)]
+[x ** 2 for x in range(a, b + 1 if a <= b else b - 1, 1 if a <= b else -1)]

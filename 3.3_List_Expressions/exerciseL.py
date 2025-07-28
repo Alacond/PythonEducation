@@ -1,0 +1,1 @@
+max(x * y for x in numbers for y in numbers if x != y)

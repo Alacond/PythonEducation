@@ -1,1 +1,1 @@
-[len(x) for x in sentence.split()]
+[x for x in range(a, b + 1) if x % d == 0]

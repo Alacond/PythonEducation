@@ -1,0 +1,1 @@
+min([(sum(value), key) for key, value in data.items()])[1]

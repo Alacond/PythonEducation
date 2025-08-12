@@ -1,4 +1,5 @@
 def fragments(numbers):
+    
     if not numbers:
         return []
 
@@ -12,6 +13,7 @@ def fragments(numbers):
             result.append(current)
             current = [numbers[i]]
     result.append(current)
+    
     return result
 
 

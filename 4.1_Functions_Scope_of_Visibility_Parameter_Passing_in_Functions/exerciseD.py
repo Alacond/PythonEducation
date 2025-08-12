@@ -1,6 +1,5 @@
 def take_small(money):
     small_money = [x for x in money if x < 100]
-    
     return small_money
 
 

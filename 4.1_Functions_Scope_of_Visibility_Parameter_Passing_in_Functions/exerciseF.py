@@ -2,7 +2,9 @@ __value = 0
 
 
 def move(player, number):
+    
     global __value
+    
     if player == "Петя":
         __value += number
     else:
@@ -12,12 +14,14 @@ def move(player, number):
 
 
 def game_over():
+    
     if __value > 0:
         winner = 'Петя'
     elif __value < 0:
         winner = 'Ваня'
     else:
         winner = "Ничья"
+    
     return winner
 
 

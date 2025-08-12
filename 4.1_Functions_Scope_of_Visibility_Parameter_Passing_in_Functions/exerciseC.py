@@ -1,6 +1,5 @@
 def number_length(number):
     number = abs(number)
-
     return len(str(number))
 
 

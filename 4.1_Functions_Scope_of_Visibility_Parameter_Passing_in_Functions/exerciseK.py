@@ -1,5 +1,4 @@
 def find_mountains(heights):
-    
     mountains = []
 
     for index, (left, middle, right) in enumerate(zip(heights, heights[1:], heights[2:]), 2):

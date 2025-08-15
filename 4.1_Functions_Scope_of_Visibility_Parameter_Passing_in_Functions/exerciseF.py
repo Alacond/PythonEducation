@@ -2,7 +2,6 @@ __value = 0
 
 
 def move(player, number):
-    
     global __value
     
     if player == "Петя":

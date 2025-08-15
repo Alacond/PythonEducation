@@ -1,6 +1,5 @@
 def get_repeater(func, count):
     def repeat(value):
-    
         result = value
     
         for _ in range(count):

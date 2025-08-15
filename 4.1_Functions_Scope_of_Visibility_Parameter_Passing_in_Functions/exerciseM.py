@@ -2,7 +2,6 @@ __last_text = set()
 
 
 def modern_print(text):
-    
     global __last_text
     
     if text not in __last_text:

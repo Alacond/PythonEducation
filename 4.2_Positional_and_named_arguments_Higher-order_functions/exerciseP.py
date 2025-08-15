@@ -1,5 +1,4 @@
 def login(name, pwd, success, error):
-    
     hex_name = hex(sum(ord(char) for char in name) * len(name))  # Считаем сумму всех кодов символов, умножаем на длинну имени, переводим в 16-систему
     hex_name = str(hex_name[2:])  # Оставляем только значение (без "0x"), переводим в строковый формат
     hex_name = hex_name[::-1]  # Разворачиваем

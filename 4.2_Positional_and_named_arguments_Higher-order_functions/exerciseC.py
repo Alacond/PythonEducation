@@ -1,5 +1,4 @@
 def gcd(*nums):
-
     nod = None
 
     for num in nums:

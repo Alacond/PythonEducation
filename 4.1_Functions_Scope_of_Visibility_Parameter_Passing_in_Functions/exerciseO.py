@@ -1,5 +1,4 @@
 def get_dict(text):
-    
     dictionary = {}
     key_value_pairs = text.split(";")
     

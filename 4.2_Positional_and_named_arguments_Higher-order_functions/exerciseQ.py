@@ -1,0 +1,1 @@
+lambda item: isinstance(item[1], list) and any(value % 2 == 0 for value in item[1])

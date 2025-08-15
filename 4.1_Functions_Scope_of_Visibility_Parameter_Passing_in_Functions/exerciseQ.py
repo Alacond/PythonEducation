@@ -1,5 +1,4 @@
 def is_prime(value):
-    
     result_bool = True
 
     if value <= 1:

@@ -1,5 +1,4 @@
 def merge(tuple_1, tuple_2):
-    
     merged_list = list()
     t1, t2 = 0, 0
     len1, len2 = len(tuple_1), len(tuple_2)

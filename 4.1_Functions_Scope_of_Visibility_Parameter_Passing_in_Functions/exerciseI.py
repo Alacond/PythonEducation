@@ -1,5 +1,4 @@
 def month(number, language):
-    
     months_by_lang = {
         "ru": [
             "Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",

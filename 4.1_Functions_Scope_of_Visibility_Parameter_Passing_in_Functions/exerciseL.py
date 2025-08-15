@@ -2,7 +2,6 @@ from itertools import product
 
 
 def find_mountains(data):
-    
     n = len(data)
     m = len(data[0])
     mountains = []

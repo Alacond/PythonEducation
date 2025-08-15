@@ -1,5 +1,4 @@
 def product(*args, **kwargs):
-    
     result = list(args)
 
     for i, arg in enumerate(args):

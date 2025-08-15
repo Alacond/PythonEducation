@@ -2,7 +2,6 @@ __DATA = list()
 
 
 def enter_results(*args):
-    
     odds = args[::2]
     evens = args[1::2]
 
@@ -11,7 +10,6 @@ def enter_results(*args):
 
 
 def get_sum():
-
     sum1 = sum(odd for odd, _ in __DATA)
     sum2 = sum(even for _, even in __DATA)
     
@@ -19,7 +17,6 @@ def get_sum():
 
 
 def get_average():
-
     sum1 = sum(odd for odd, _ in __DATA)
     sum2 = sum(even for _, even in __DATA)
     avg1 = sum1 / len(__DATA)
